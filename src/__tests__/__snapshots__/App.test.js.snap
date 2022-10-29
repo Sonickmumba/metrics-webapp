@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for  App component App Component renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        style="display: flex; justify-content: space-between; color: rgb(255, 255, 255); padding: 0px 1rem;"
+      >
+        <div
+          style="display: flex; align-items: center; gap: 4px;"
+        >
+          <img
+            alt="back arrow"
+            src="arrow_back_ios_white.svg"
+            style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+          />
+          <h3>
+            2022
+          </h3>
+        </div>
+        <h3>
+          Covid 19 confirmed cases
+        </h3>
+        <div
+          style="display: flex; align-items: center; gap: 10px;"
+        >
+          <select
+            class="chooseContinent"
+            id="continent"
+            name="continents"
+          >
+            <option
+              value="Select Continent"
+            >
+              Select Continent
+            </option>
+            <option
+              value="Asia"
+            >
+              Asia
+            </option>
+            <option
+              value="Europe"
+            >
+              EUROPE
+            </option>
+            <option
+              value="Antarctica"
+            >
+              ANTARCTICA
+            </option>
+            <option
+              value="Africa"
+            >
+              AFRICA
+            </option>
+            <option
+              value="South America"
+            >
+              SOUTH AMERICA
+            </option>
+            <option
+              value="North America"
+            >
+              NORTH AMERICA
+            </option>
+          </select>
+          <div
+            class="rightTools"
+          >
+            <img
+              alt="mic logo"
+              src="settings_voice_white.svg"
+              style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+            />
+            <img
+              alt="settings logo"
+              src="settings_white.svg"
+              style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+            />
+          </div>
+        </div>
+      </header>
+      <div
+        style="display: flex; align-items: center; background-color: rgb(235, 76, 137); width: 100%; height: 400px; gap: 20px;"
+      >
+        <div
+          style="width: 50%; height: 400px;"
+        >
+          <img
+            alt=""
+            src="europe.png"
+            style="width: 100%; height: 100%; filter: brightness(40%); opacity: 0.5;"
+          />
+        </div>
+        <div>
+          <h1>
+            Asia
+          </h1>
+          <p
+            class="totalConfirmedCases"
+          >
+            0
+             
+            cases
+          </p>
+        </div>
+      </div>
+      <section
+        class="homeStats"
+      >
+        <p
+          class="statisticsTitle"
+        >
+          STATS BY COUNTRY
+        </p>
+        <div
+          class="homegrid"
+        />
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      style="display: flex; justify-content: space-between; color: rgb(255, 255, 255); padding: 0px 1rem;"
+    >
+      <div
+        style="display: flex; align-items: center; gap: 4px;"
+      >
+        <img
+          alt="back arrow"
+          src="arrow_back_ios_white.svg"
+          style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+        />
+        <h3>
+          2022
+        </h3>
+      </div>
+      <h3>
+        Covid 19 confirmed cases
+      </h3>
+      <div
+        style="display: flex; align-items: center; gap: 10px;"
+      >
+        <select
+          class="chooseContinent"
+          id="continent"
+          name="continents"
+        >
+          <option
+            value="Select Continent"
+          >
+            Select Continent
+          </option>
+          <option
+            value="Asia"
+          >
+            Asia
+          </option>
+          <option
+            value="Europe"
+          >
+            EUROPE
+          </option>
+          <option
+            value="Antarctica"
+          >
+            ANTARCTICA
+          </option>
+          <option
+            value="Africa"
+          >
+            AFRICA
+          </option>
+          <option
+            value="South America"
+          >
+            SOUTH AMERICA
+          </option>
+          <option
+            value="North America"
+          >
+            NORTH AMERICA
+          </option>
+        </select>
+        <div
+          class="rightTools"
+        >
+          <img
+            alt="mic logo"
+            src="settings_voice_white.svg"
+            style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+          />
+          <img
+            alt="settings logo"
+            src="settings_white.svg"
+            style="width: 30px; height: 30px; color: rgb(255, 255, 255);"
+          />
+        </div>
+      </div>
+    </header>
+    <div
+      style="display: flex; align-items: center; background-color: rgb(235, 76, 137); width: 100%; height: 400px; gap: 20px;"
+    >
+      <div
+        style="width: 50%; height: 400px;"
+      >
+        <img
+          alt=""
+          src="europe.png"
+          style="width: 100%; height: 100%; filter: brightness(40%); opacity: 0.5;"
+        />
+      </div>
+      <div>
+        <h1>
+          Asia
+        </h1>
+        <p
+          class="totalConfirmedCases"
+        >
+          0
+           
+          cases
+        </p>
+      </div>
+    </div>
+    <section
+      class="homeStats"
+    >
+      <p
+        class="statisticsTitle"
+      >
+        STATS BY COUNTRY
+      </p>
+      <div
+        class="homegrid"
+      />
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
