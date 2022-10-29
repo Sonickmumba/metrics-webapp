@@ -80,7 +80,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 ## Acknowledgments
-- [Zeplin project](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378) for the design
+- [[Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the design
 - [Microverse](https://www.microverse.org/)
 - Code Reviewers & Coding Partners
 - etc
