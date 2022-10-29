@@ -83,13 +83,12 @@ const HomePage = () => {
         <h3>Covid 19 confirmed cases</h3>
         <div style={tools}>
           <select name="continents" id="continent" className={styles.chooseContinent} onChange={chooseContinent}>
-            <option value="Asia">Select Another Continent</option>
+            <option value="Asia">Select Continent</option>
             <option value="Europe">EUROPE</option>
             <option value="Antarctica">ANTARCTICA</option>
-            <option value="Australia">AUSTRALIA</option>
             <option value="Africa">AFRICA</option>
-            <option value="North America">NORTH AMERICA</option>
             <option value="South America">SOUTH AMERICA</option>
+            <option value="North America">NORTH AMERICA</option>
           </select>
 
           <div className={styles.rightTools}>
