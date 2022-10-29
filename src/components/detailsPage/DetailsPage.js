@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { fetchCountryFromAPi } from '../../redux/countries/countries';
-import virus from '../virus.svg';
+import virus from '../SARS-CoV-2_without_background.png';
 import './detailsPage.css';
 import image1 from '../arrow_back_ios_white.svg';
 import image2 from '../settings_white.svg';
@@ -49,7 +49,7 @@ const DetailsPage = () => {
       </header>
       <main className="detailsPage-container">
         <div className="detailsPage-image">
-          <img src={virus} alt="" className="App-map" />
+          <img src={virus} alt="" className="covidvirus" />
         </div>
         <div className="detailsPage-details">
           <h1 className="detailsPage-details-title">{All.country}</h1>
