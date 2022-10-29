@@ -75,8 +75,6 @@ const HomePage = () => {
 
   return (
     <>
-      {/* <Header /> */}
-
       <header style={header}>
         <div style={rightDiv}>
           <img src={image1} alt="back arrow" style={images} />
