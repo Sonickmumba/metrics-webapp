@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import image from '../europe.png';
-import virus from '../virus.svg';
+// import virus from '../virus.svg';
+import virus from '../SARS-CoV-2_without_background.png';
 import styles from './homePage.module.css';
 import { fetchCountriesFromAPI } from '../../redux/countries/countries';
 
@@ -59,7 +60,7 @@ const HomePage = () => {
     ...state.countries,
   }));
 
-  const [continent, setContinent] = useState('Africa');
+  const [continent, setContinent] = useState('Asia');
 
   const chooseContinent = (e) => {
     const searchContinent = e.target.value;
@@ -83,13 +84,13 @@ const HomePage = () => {
         <h3>Covid 19 confirmed cases</h3>
         <div style={tools}>
           <select name="continents" id="continent" className={styles.chooseContinent} onChange={chooseContinent}>
-            <option value="Asia">Select Another Continent</option>
+            <option value="Select Continent">Select Continent</option>
+            <option value="Asia" selected>Asia</option>
             <option value="Europe">EUROPE</option>
             <option value="Antarctica">ANTARCTICA</option>
-            <option value="Australia">AUSTRALIA</option>
             <option value="Africa">AFRICA</option>
-            <option value="North America">NORTH AMERICA</option>
             <option value="South America">SOUTH AMERICA</option>
+            <option value="North America">NORTH AMERICA</option>
           </select>
 
           <div className={styles.rightTools}>
