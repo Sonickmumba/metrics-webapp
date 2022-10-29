@@ -32,9 +32,14 @@ Object {
             name="continents"
           >
             <option
+              value="Select Continent"
+            >
+              Select Continent
+            </option>
+            <option
               value="Asia"
             >
-              Select Another Continent
+              Asia
             </option>
             <option
               value="Europe"
@@ -47,24 +52,19 @@ Object {
               ANTARCTICA
             </option>
             <option
-              value="Australia"
-            >
-              AUSTRALIA
-            </option>
-            <option
               value="Africa"
             >
               AFRICA
             </option>
             <option
-              value="North America"
-            >
-              NORTH AMERICA
-            </option>
-            <option
               value="South America"
             >
               SOUTH AMERICA
+            </option>
+            <option
+              value="North America"
+            >
+              NORTH AMERICA
             </option>
           </select>
           <div
@@ -97,7 +97,7 @@ Object {
         </div>
         <div>
           <h1>
-            Africa
+            Asia
           </h1>
           <p
             class="totalConfirmedCases"
@@ -150,9 +150,14 @@ Object {
           name="continents"
         >
           <option
+            value="Select Continent"
+          >
+            Select Continent
+          </option>
+          <option
             value="Asia"
           >
-            Select Another Continent
+            Asia
           </option>
           <option
             value="Europe"
@@ -165,24 +170,19 @@ Object {
             ANTARCTICA
           </option>
           <option
-            value="Australia"
-          >
-            AUSTRALIA
-          </option>
-          <option
             value="Africa"
           >
             AFRICA
           </option>
           <option
-            value="North America"
-          >
-            NORTH AMERICA
-          </option>
-          <option
             value="South America"
           >
             SOUTH AMERICA
+          </option>
+          <option
+            value="North America"
+          >
+            NORTH AMERICA
           </option>
         </select>
         <div
@@ -215,7 +215,7 @@ Object {
       </div>
       <div>
         <h1>
-          Africa
+          Asia
         </h1>
         <p
           class="totalConfirmedCases"

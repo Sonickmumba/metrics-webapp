@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import image from '../europe.png';
-// import virus from '../virus.svg';
 import virus from '../SARS-CoV-2_without_background.png';
 import styles from './homePage.module.css';
 import { fetchCountriesFromAPI } from '../../redux/countries/countries';
@@ -85,7 +84,7 @@ const HomePage = () => {
         <div style={tools}>
           <select name="continents" id="continent" className={styles.chooseContinent} onChange={chooseContinent}>
             <option value="Select Continent">Select Continent</option>
-            <option value="Asia" selected>Asia</option>
+            <option value="Asia">Asia</option>
             <option value="Europe">EUROPE</option>
             <option value="Antarctica">ANTARCTICA</option>
             <option value="Africa">AFRICA</option>
