@@ -11,7 +11,7 @@
 
 ## Live Demo (Deployed on GitHub Pages with SSL)
 
-[Live Demo Link]()
+[Live Demo Link](https://steady-blancmange-ce1d6f.netlify.app/)
 
 ## Video Presentation
 [Live video](https://drive.google.com/file/d/1RsNtLFf--xaeXoilySh7h_eXy7zVdDYi/view?usp=sharing)
